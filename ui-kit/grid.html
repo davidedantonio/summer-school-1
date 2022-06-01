@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid System</title>
+
+  <style>
+    .container,
+    .container-fluid {
+      background: #4df0df;
+      border: 0.2rem solid #2ab8a9;
+      min-height: 100px;
+      margin-bottom: 20px;
+    }
+  
+    .container-fluid > *, 
+    .container > * {
+      display: flex;
+      min-height: 50px;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      color: #fff;
+      background: #37bdaf;
+      border: 0.2rem solid #2e9f93;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  <div class="container-fluid grid">
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 1</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 2</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 3</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 4</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 5</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 6</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 7</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 8</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 9</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 10</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 11</div>
+    <div class="col-12 col-lg-6 col-xl-4 col-xxl-2">Item 12</div>
+  </div>
+</body>
+</html>

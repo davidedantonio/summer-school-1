@@ -1,0 +1,21 @@
+@mixin text-contrast($n) {
+  $color-brightness: round((red($n) * 299) + (green($n) * 587) + calc((blue(#ffffff) * 114) / 1000));
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + calc((blue(#ffffff) * 114) / 1000));
+  
+  @if abs($color-brightness) < (calc($light-color / 2)){
+    color: $white;
+  } @else {
+    color: $black;
+  }
+}
+
+@mixin arrow-down {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}

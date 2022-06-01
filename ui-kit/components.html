@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI KIT</title>
+  <link 
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    
+  <link rel="stylesheet" href="./css/ui-kit.css" />
+  <style>
+    section {
+      background-color: #fcfcfc;
+      padding: 20px;
+      border-radius: 1rem;
+      border: 2px solid #e2e2e2;
+    }
+
+    section > div {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <section id="typography" class="container mb-3">
+    <h2>Typography</h2>
+
+    <h3>Headings</h3>
+    <div>
+      <h1>h1. heading</h1>
+      <h2>h2. heading</h2>
+      <h3>h3. heading</h3>
+      <h4>h4. heading</h4>
+      <h5>h5. heading</h5>
+      <h6>h6. heading</h6>
+    </div>
+    
+    <h3>Paragraph</h2>
+    <div>
+      <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+      <p><del>This line of text is meant to be treated as deleted text.</del></p>
+      <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+      <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+      <p><u>This line of text will render as underlined.</u></p>
+      <p><small>This line of text is meant to be treated as fine print.</small></p>
+      <p><strong>This line rendered as bold text.</strong></p>
+      <p><em>This line rendered as italicized text.</em></p>
+    </div>
+
+    <h3>Link</h2>
+    <div>
+      <a href="https://webeetle.com">Webeetle website</a>
+    </div>
+
+    <h3>Alignment</h3>
+    <diV>
+      <p class="text-end">Alignet to right</p>
+      <p class="text-center">Aligned to center</p>
+    </diV>
+  </section>
+  <section id="alerts" class="container mb-3">
+    <h2>Alerts</h2>
+    <div>
+      <div class="alert alert-primary" role="alert">
+        <h2>Alert</h2>
+        <p>A simple primary alert—check it out! <a href="">A link!</a></p>
+        <hr />
+        <button class="btn btn-sm btn-outline-primary">Well done!</button>
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+      </div>
+    </div>
+  </section>
+  <section id="bagdes" class="container mb-3">
+    <h2>Badges</h2>
+
+    <h3>Default</h3>
+    <div>
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-danger">Danger</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-info">Info</span>
+    </div>
+
+    <h3>Pills</h3>
+    <div>
+      <span class="badge badge-pill badge-primary">Primary</span>
+      <span class="badge badge-pill badge-secondary">Secondary</span>
+      <span class="badge badge-pill badge-success">Success</span>
+      <span class="badge badge-pill badge-danger">Danger</span>
+      <span class="badge badge-pill badge-warning">Warning</span>
+      <span class="badge badge-pill badge-info">Info</span>
+    </div>
+  </section>
+  <section id="buttons" class="container mb-3">
+    <h2>Buttons</h2>
+    <div>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-link">Link</button>
+    </div>
+
+    <h3>Sizes</h3>
+    <div>
+      <button class="btn btn-primary btn-sm">Small</button>
+      <button class="btn btn-primary">Default</button>
+      <button class="btn btn-primary btn-lg">Large</button>
+    </div>
+
+
+    <h3>Outline</h3>
+    <div>
+      <button class="btn btn-outline-primary">Primary</button>
+      <button class="btn btn-outline-secondary">Secondary</button>
+      <button class="btn btn-outline-info">Info</button>
+      <button class="btn btn-outline-success">Success</button>
+      <button class="btn btn-outline-warning">Warning</button>
+      <button class="btn btn-outline-danger">Danger</button>
+    </div>
+
+    <h3>Button Group</h3>
+    <div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-sm btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-sm btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-sm btn-outline-primary">Right</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-lg btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-lg btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-lg btn-outline-primary">Right</button>
+      </div>
+    </div>
+  </section>
+  <section id="card" class="container mb-3">
+    <h3>Cards</h3>
+
+    <h3>Default</h3>
+    <div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+
+    <h3>Header and Footer</h3>
+    <div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-sm btn-primary">Go somewhere</a>
+        </div>      
+        <div class="card-footer">
+          2 days ago
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="dropdown" class="container mb-3">
+    <h2>Dropdown</h2>
+
+    <h3>Default</h3>
+    <div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="navs-tabs" class="container mb-3">
+    <h2>Navs & Tabs</h2>
+    
+    <h3>Nav</h3>
+    <div>
+      <nav class="nav">
+        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled">Disabled</a>
+      </nav>
+    </div>
+
+    <h3>Nav Pills</h3>
+    <div>
+      <nav class="nav nav-pills">
+        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled">Disabled</a>
+      </nav>
+    </div>
+
+    <h3>Tabs</h3>
+    <div>
+      <nav class="nav nav-tabs">
+        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled">Disabled</a>
+      </nav>
+    </div>
+  </section>
+
+
+  <section id="navsbar" class="container mb-3">
+    <h2>Navbar</h2>
+    
+    <h3>Navbar</h3>
+    <div class="navbar">
+      <nav class="nav">
+        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled">Disabled</a>
+      </nav>
+    </div>
+
+    <h3>Variant</h3>
+    <div>
+      <div class="navbar navbar-primary mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+      <div class="navbar navbar-secondary mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+
+      <div class="navbar navbar-info mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+
+      <div class="navbar navbar-success mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+
+      <div class="navbar navbar-warning mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+
+      <div class="navbar navbar-danger mb-3">
+        <nav class="nav">
+          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled">Disabled</a>
+        </nav>
+      </div>
+    </div>
+    
+  </section>
+
+  <script type="text/javascript" src="./js/Dropdown.js"></script>
+</body>
+</html>

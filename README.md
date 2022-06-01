@@ -6,7 +6,13 @@ Utilizzeremo HTML, CSS, e JavaScript per creare un Design System minimale utiliz
 
 Vai sul [sito di Nodejs](https://nodejs.org/en/) e scarica la versione LTS (attualmente la 16.x.x).
 
-## Installare SASS 
+## SASS
+
+Sass è un linguaggio di fogli di stile che viene compilato in CSS. Ti consente di utilizzare variabili, regole nidificate, mixin, funzioni e altro, il tutto con una sintassi completamente compatibile con i CSS. Sass aiuta a mantenere i fogli di stile di grandi dimensioni ben organizzati e semplifica la condivisione del design all'interno e tra i progetti.
+
+Dai uno sguardo alla [documentazione ufficiale](https://sass-lang.com/) per maggiori dettagli :smile:
+
+### Installare SASS 
 
 Per installare SASS sulla vostra macchina basta digitare dalla linea di comando quanto segue
 
@@ -60,7 +66,7 @@ Usage: sass <input.scss> [output.css]
     --version                  Print the version of Dart Sass.
 ```
 
-### Come utilizzare SASS per questo progetto
+### Come utilizzare SASS in questo progetto
 
 Dalla directory principale del progetto eseguite questo comando:
 
@@ -73,8 +79,16 @@ Da questo momento in poi ogni volta che un file `.scss` verrà modificato SASS s
 
 ## Obiettivo della lezione
 
-Utilizzando SASS e JavaScript bisogna realizzare i seguenti componenti.
+Utilizzando SASS e JavaScript bisogna realizzare i seguenti componenti per il nostro UI Kit:
 
 - [ ] Grid System
 - [ ] Buttons
 - [ ] Button Groups
+- [ ] Typography
+- [ ] Alerts
+- [ ] Badges
+- [ ] Cards
+- [ ] Navs & Tabs
+- [ ] Navbar
+- [ ] Dropdown Menu
+- [ ] Spacing utilities
