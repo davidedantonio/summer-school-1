@@ -4,7 +4,7 @@ Utilizzeremo HTML, CSS, e JavaScript per creare un Design System minimale utiliz
 
 ## Installazione di Node.js
 
-Vai sul [sito di Nodejs](https://nodejs.org/en/) e scarica la versione LTS (attualmente la 16.x.x).
+Vai sul [sito di Nodejs](https://nodejs.org/en/) e scarica la versione LTS (attualmente la 16.x.x). Se sei un utente Windows o Mac avrai a disposizione un installer guidato per il tuo sistema operativo. Con pochi click riuscirai ad installare Node.js correttamente.
 
 ## SASS
 
