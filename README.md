@@ -62,3 +62,19 @@ Usage: sass <input.scss> [output.css]
 
 ### Come utilizzare SASS per questo progetto
 
+Dalla directory principale del progetto eseguite questo comando:
+
+```
+sass --watch .ui-kit/sass/ui-kit.scss:./ui-kit/css/ui-kit.css
+```
+
+Da questo momento in poi ogni volta che un file `.scss` verrà modificato SASS si preoccuperà di trasformare il codice in puro CSS. Trovate il codice css generato nella directory `ui-kit/css/ui-kit.css`.
+
+
+## Obiettivo della lezione
+
+Utilizzando SASS e JavaScript bisogna realizzare i seguenti componenti.
+
+- [ ] Grid System
+- [ ] Buttons
+- [ ] Button Groups
