@@ -8,7 +8,7 @@ Vai sul [sito di Nodejs](https://nodejs.org/en/) e scarica la versione LTS (attu
 
 ## SASS
 
-Sass è un linguaggio di fogli di stile che viene compilato in CSS. Ti consente di utilizzare variabili, regole nidificate, mixin, funzioni e altro, il tutto con una sintassi completamente compatibile con i CSS. Sass aiuta a mantenere i fogli di stile di grandi dimensioni ben organizzati e semplifica la condivisione del design all'interno e tra i progetti.
+Sass preprocessore CSS. Ti consente di utilizzare variabili, regole nidificate, mixin, funzioni e altro, il tutto con una sintassi completamente compatibile con i CSS. Sass aiuta a mantenere i fogli di stile di grandi dimensioni ben organizzati e semplifica la condivisione del design all'interno e tra i progetti.
 
 Dai uno sguardo alla [documentazione ufficiale](https://sass-lang.com/) per maggiori dettagli :smile:
 
@@ -71,7 +71,7 @@ Usage: sass <input.scss> [output.css]
 Dalla directory principale del progetto eseguite questo comando:
 
 ```
-sass --watch .ui-kit/sass/ui-kit.scss:./ui-kit/css/ui-kit.css
+sass --watch ./ui-kit/sass/ui-kit.scss:./ui-kit/css/ui-kit.css
 ```
 
 Da questo momento in poi ogni volta che un file `.scss` verrà modificato SASS si preoccuperà di trasformare il codice in puro CSS. Trovate il codice css generato nella directory `ui-kit/css/ui-kit.css`.
