@@ -81,14 +81,14 @@ Da questo momento in poi ogni volta che un file `.scss` verrà modificato SASS s
 
 Utilizzando SASS e JavaScript bisogna realizzare i seguenti componenti per il nostro UI Kit:
 
-- [ ] Grid System
-- [ ] Buttons
-- [ ] Button Groups
 - [ ] Typography
+- [ ] Spacing utilities
 - [ ] Alerts
 - [ ] Badges
+- [ ] Buttons
+- [ ] Button Groups
 - [ ] Cards
+- [ ] Forms
 - [ ] Navs & Tabs
 - [ ] Navbar
-- [ ] Form
-- [ ] Spacing utilities
+- [ ] Grid System
